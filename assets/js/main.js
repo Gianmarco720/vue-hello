@@ -8,6 +8,7 @@ const { createApp } = Vue;
         data() {
             return {
                 message: 'Hello World!',
+                path: 'https://picsum.photos/800/400'
             }
         }
     }).mount('#app');
